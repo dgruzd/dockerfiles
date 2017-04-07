@@ -8,4 +8,4 @@ services:
     image: clue/polipo
     command: proxyAddress=0.0.0.0 socksParentProxy=tor:9150
     ports:
-      - "8118:8123"
+      - "8050:8123"
