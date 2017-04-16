@@ -1,7 +1,7 @@
 version: '2'
 services:
   tor:
-    image: osminogin/tor-simple
+    image: nyaa/tor
     ports:
       - "9050:9050"
   polipo:
