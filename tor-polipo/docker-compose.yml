@@ -1,9 +1,9 @@
 version: '2'
 services:
   tor:
-    image: nagev/tor
+    image: osminogin/tor-simple
     ports:
-      - "9050:9150"
+      - "9050:9050"
   polipo:
     image: clue/polipo
     command: proxyAddress=0.0.0.0 socksParentProxy=tor:9150
