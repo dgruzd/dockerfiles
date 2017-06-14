@@ -1,4 +1,0 @@
-network.host: 0.0.0.0
-script.inline: true
-script.indexed: true
-action.bulk.compress: false
